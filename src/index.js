@@ -1,10 +1,11 @@
 const express = require('express');
 const morgan = require('morgan');
 ///initializations
-
+//cons { hola} = from('')
 const app = express();
 
 //settings
+//prueba
 
 app.set('port', process.env.app || 4000);
 
